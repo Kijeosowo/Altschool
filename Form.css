@@ -1,0 +1,330 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff1e6;
+}
+
+#Section-body {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.left-main {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.form {
+  background-color: white;
+  border-radius: 5px;
+  padding: 2rem;
+  margin-right: 10%;
+  width: 30%;
+}
+
+.form dt {
+  float: right;
+}
+
+dt a {
+  text-decoration: none;
+  color: #2e6bfa;
+}
+
+form h1 {
+  padding-top: 2%;
+}
+
+.fullname {
+  display: flex;
+  gap: 0px;
+}
+
+.gender-dob {
+  display: flex;
+}
+
+.contact {
+  display: flex;
+}
+
+.location {
+  display: flex;
+}
+
+.password {
+  display: flex;
+}
+
+.firstname label {
+  color: black;
+  line-height: 2;
+}
+
+.firstname input {
+  outline: none;
+  padding: 1rem;
+  width: 70%;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(247, 243, 243, 0.834);
+}
+
+.firstname input:focus {
+  border: 1px solid #2e6bfa;
+}
+
+.lastname label {
+  color: black;
+  line-height: 2;
+}
+
+.lastname input {
+  outline: none;
+  padding: 1rem;
+  width: 70%;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(247, 243, 243, 0.834);
+}
+
+.lastname input:focus {
+  border: 1px solid #2e6bfa;
+}
+
+.gender-dob {
+  gap: 60px;
+}
+
+.gender label {
+  color: black;
+  line-height: 2;
+}
+
+.gender select {
+  outline: none;
+  padding: 1rem;
+  width: 120%;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(247, 243, 243, 0.834);
+}
+
+.gender select:focus {
+  border: 1px solid #2e6bfa;
+}
+
+.dob label {
+  color: black;
+  line-height: 2;
+}
+
+.dob input {
+  outline: none;
+  padding: 1rem;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(247, 243, 243, 0.834);
+}
+
+.dob input:focus {
+  border: 1px solid #2e6bfa;
+}
+
+.email label {
+  color: black;
+  line-height: 2;
+}
+
+.email input {
+  outline: none;
+  padding: 1rem;
+  width: 70%;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(247, 243, 243, 0.834);
+}
+
+.email input:focus {
+  border: 1px solid #2e6bfa;
+}
+
+.phone-no label {
+  color: black;
+  line-height: 2;
+}
+
+.phone-no input {
+  outline: none;
+  padding: 1rem;
+  width: 70%;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(247, 243, 243, 0.834);
+}
+
+.phone-no input:focus {
+  border: 1px solid #2e6bfa;
+}
+
+.location {
+  display: flex;
+  gap: 30px;
+}
+
+.country label {
+  color: black;
+  line-height: 2;
+}
+
+.country select {
+  outline: none;
+  padding: 1rem;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(247, 243, 243, 0.834);
+}
+
+.country select:focus {
+  border: 1px solid #2e6bfa;
+}
+
+.state label {
+  color: black;
+  line-height: 2;
+}
+
+.state input {
+  outline: none;
+  padding: 1rem;
+  width: 70%;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(247, 243, 243, 0.834);
+}
+
+.state input:focus {
+  border: 1px solid #2e6bfa;
+}
+
+.information label {
+  color: black;
+  line-height: 2;
+}
+
+.information select {
+  outline: none;
+  padding: 1rem;
+  width: 90%;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(247, 243, 243, 0.834);
+}
+
+.information select:focus {
+  border: 1px solid #2e6bfa;
+}
+
+.password-section {
+  display: flex;
+}
+
+.password label {
+  color: black;
+  line-height: 2;
+}
+
+.password input {
+  outline: none;
+  padding: 1rem;
+  width: 70%;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(247, 243, 243, 0.834);
+}
+
+.password input:focus {
+  border: 1px solid #2e6bfa;
+}
+
+.confirm-password label {
+  color: black;
+  line-height: 2;
+}
+
+.confirm-password input {
+  outline: none;
+  padding: 1rem;
+  width: 70%;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(247, 243, 243, 0.834);
+}
+
+.confirm-password input:focus {
+  border: 1px solid #2e6bfa;
+}
+
+.terms-condition a {
+  text-decoration: none;
+  color: #2e6bfa;
+}
+
+.submit {
+  width: 100%;
+  padding: 1rem;
+  color: #fff;
+  background-color: rgb(99, 60, 182);
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+  #Section-body {
+    flex-direction: column;
+    display: flex;
+  }
+  .left-main {
+    display: none;
+  }
+  .form {
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 5px;
+    width: 80%;
+  }
+  .gender-dob {
+    gap: 50px;
+  }
+  .dob input {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  #Section-body {
+    flex-direction: row;
+    display: flex;
+    gap: 0px;
+  }
+  .dob input {
+    width: 70%;
+  }
+  .form dt {
+    float: left;
+  }
+  .form {
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 5px;
+    width: 80%;
+  }
+}

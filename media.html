@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media</title>
+    <link rel="stylesheet" href="media.css">
+  </head>
+  <body>
+    <div class="video">
+      <video width="600" controls>
+        <source
+          src="Image/originals_fw24_t_toe_samba_mh_d_4222835bb4.mp4"
+          type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <div class="picture">
+        <picture>
+            <!-- For very small devices (mobile) -->
+            <source media="(max-width: 599px)" srcset="Image/image-small.jpg">
+          
+            <!-- For tablets and small desktops -->
+            <source media="(min-width: 600px) and (max-width: 1024px)" srcset="Image/image-medium.avif">
+          
+            <!-- For larger desktops -->
+            <source media="(min-width: 1025px)" srcset="Image/image-large.avif">
+          
+            <!-- Fallback image (if none of the above sources match) -->
+            <img src="Image/image-small.jpg" alt="Description of the image">
+          </picture>
+          
+    </div>
+
+    <div class="audio">
+      <audio src="Image/Altschool recording.m4a" controls>
+        Your browser does not support the video tag.
+      </audio>
+    </div>
+  </body>
+</html>
